@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suskumar3\\source\\repos\\ShoppingAPIS\\UserManagement\\UserManagement.csproj": {}
+    "C:\\NETCORE\\SKShopping\\UserManagement\\UserManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suskumar3\\source\\repos\\ShoppingAPIS\\UserManagement\\UserManagement.csproj": {
+    "C:\\NETCORE\\SKShopping\\UserManagement\\UserManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suskumar3\\source\\repos\\ShoppingAPIS\\UserManagement\\UserManagement.csproj",
+        "projectUniqueName": "C:\\NETCORE\\SKShopping\\UserManagement\\UserManagement.csproj",
         "projectName": "UserManagement",
-        "projectPath": "C:\\Users\\suskumar3\\source\\repos\\ShoppingAPIS\\UserManagement\\UserManagement.csproj",
+        "projectPath": "C:\\NETCORE\\SKShopping\\UserManagement\\UserManagement.csproj",
         "packagesPath": "C:\\Users\\suskumar3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suskumar3\\source\\repos\\ShoppingAPIS\\UserManagement\\obj\\",
+        "outputPath": "C:\\NETCORE\\SKShopping\\UserManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
