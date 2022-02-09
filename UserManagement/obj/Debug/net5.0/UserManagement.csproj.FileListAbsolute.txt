@@ -51,6 +51,7 @@ C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\staticwebassets\UserManage
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\staticwebassets\UserManagement.StaticWebAssets.xml
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\scopedcss\bundle\UserManagement.styles.css
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\UserManagement.RazorTargetAssemblyInfo.cache
+C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\UserManagement.csproj.CopyComplete
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\UserManagement.dll
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\ref\UserManagement.dll
 C:\NETCORE\SKShopping\UserManagement\obj\Debug\net5.0\UserManagement.pdb
