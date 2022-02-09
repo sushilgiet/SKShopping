@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "FunPIDQuery": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34480,
+      "useSSL": false
+    }
+  }
+}

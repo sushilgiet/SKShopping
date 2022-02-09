@@ -16,11 +16,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkFlowFun", "WorkFlowFun\WorkFlowFun.csproj", "{27B2A1BE-0A74-406B-BDEE-6DF122D92CFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilites", "Utilites", "{13BD6076-60FB-4F5C-9B76-5733D72C97FA}"
-	ProjectSection(SolutionItems) = preProject
-		EventHubSamples\Models\Class.cs = EventHubSamples\Models\Class.cs
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobOperations", "BlobOperations\BlobOperations.csproj", "{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubSamples", "EventHubSamples\EventHubSamples.csproj", "{BCC99DEE-DED9-4757-B6B9-081EE7EE483F}"
 EndProject
@@ -46,10 +41,6 @@ Global
 		{27B2A1BE-0A74-406B-BDEE-6DF122D92CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B2A1BE-0A74-406B-BDEE-6DF122D92CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B2A1BE-0A74-406B-BDEE-6DF122D92CFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCC99DEE-DED9-4757-B6B9-081EE7EE483F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCC99DEE-DED9-4757-B6B9-081EE7EE483F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC99DEE-DED9-4757-B6B9-081EE7EE483F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,7 +60,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5D1F06D6-2E8D-4D8D-8E06-142AC96652CB} = {A87E850E-BD54-4ABF-8628-C48B58718373}
 		{27B2A1BE-0A74-406B-BDEE-6DF122D92CFB} = {F7C6699E-E29D-4E6D-8533-78A748594689}
-		{0C3BE65F-BC62-495B-8AAF-4D14ED8CE29C} = {13BD6076-60FB-4F5C-9B76-5733D72C97FA}
 		{1E383AEC-67E6-4444-B8CD-BA0B54F92B1E} = {F7C6699E-E29D-4E6D-8533-78A748594689}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
