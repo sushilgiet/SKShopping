@@ -1,0 +1,11 @@
+C:\NETCORE\SKShopping\BlobOperation\bin\Debug\net5.0\AzureStorage.deps.json
+C:\NETCORE\SKShopping\BlobOperation\bin\Debug\net5.0\AzureStorage.dll
+C:\NETCORE\SKShopping\BlobOperation\bin\Debug\net5.0\ref\AzureStorage.dll
+C:\NETCORE\SKShopping\BlobOperation\bin\Debug\net5.0\AzureStorage.pdb
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.AssemblyInfoInputs.cache
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.AssemblyInfo.cs
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.csproj.CoreCompileInputs.cache
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.dll
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\ref\AzureStorage.dll
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.pdb

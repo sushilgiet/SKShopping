@@ -32,8 +32,8 @@ C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\staticwebassets\EventHubS
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\staticwebassets\EventHubSamples.StaticWebAssets.xml
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\scopedcss\bundle\EventHubSamples.styles.css
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.RazorTargetAssemblyInfo.cache
-C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.csproj.CopyComplete
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.dll
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\ref\EventHubSamples.dll
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.pdb
 C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.genruntimeconfig.cache
+C:\NETCORE\SKShopping\EventHubSamples\obj\Debug\net5.0\EventHubSamples.csproj.CopyComplete

@@ -1,0 +1,12 @@
+C:\NETCORE\SKShopping\AzureEventHub\bin\Debug\net5.0\AzureEventHub.deps.json
+C:\NETCORE\SKShopping\AzureEventHub\bin\Debug\net5.0\AzureEventHub.dll
+C:\NETCORE\SKShopping\AzureEventHub\bin\Debug\net5.0\ref\AzureEventHub.dll
+C:\NETCORE\SKShopping\AzureEventHub\bin\Debug\net5.0\AzureEventHub.pdb
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.csproj.AssemblyReference.cache
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.AssemblyInfoInputs.cache
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.AssemblyInfo.cs
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.csproj.CoreCompileInputs.cache
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.dll
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\ref\AzureEventHub.dll
+C:\NETCORE\SKShopping\AzureEventHub\obj\Debug\net5.0\AzureEventHub.pdb

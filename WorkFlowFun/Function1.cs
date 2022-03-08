@@ -35,7 +35,7 @@ namespace WorkFlowFun
         [FunctionName("Function1_HttpStart")]
         public static async Task<HttpResponseMessage> HttpStart(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestMessage req,
-            [DurableClient] IDurableOrchestrationClient starter,
+            [DurableClient] IDurableOrchestrationClient starter,//durable client binding
             ILogger log)
         {
             // Function input comes from the request content.

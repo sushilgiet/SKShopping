@@ -1,0 +1,12 @@
+C:\NETCORE\SKShopping\AzureServiceBus\bin\Debug\net5.0\AzureServiceBus.deps.json
+C:\NETCORE\SKShopping\AzureServiceBus\bin\Debug\net5.0\AzureServiceBus.dll
+C:\NETCORE\SKShopping\AzureServiceBus\bin\Debug\net5.0\ref\AzureServiceBus.dll
+C:\NETCORE\SKShopping\AzureServiceBus\bin\Debug\net5.0\AzureServiceBus.pdb
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.AssemblyInfoInputs.cache
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.AssemblyInfo.cs
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.csproj.CoreCompileInputs.cache
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.dll
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\ref\AzureServiceBus.dll
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.pdb
+C:\NETCORE\SKShopping\AzureServiceBus\obj\Debug\net5.0\AzureServiceBus.csproj.AssemblyReference.cache

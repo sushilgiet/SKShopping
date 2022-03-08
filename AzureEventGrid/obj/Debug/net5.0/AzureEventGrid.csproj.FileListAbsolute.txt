@@ -1,0 +1,5 @@
+C:\NETCORE\SKShopping\AzureEventGrid\obj\Debug\net5.0\AzureEventGrid.csproj.AssemblyReference.cache
+C:\NETCORE\SKShopping\AzureEventGrid\obj\Debug\net5.0\AzureEventGrid.GeneratedMSBuildEditorConfig.editorconfig
+C:\NETCORE\SKShopping\AzureEventGrid\obj\Debug\net5.0\AzureEventGrid.AssemblyInfoInputs.cache
+C:\NETCORE\SKShopping\AzureEventGrid\obj\Debug\net5.0\AzureEventGrid.AssemblyInfo.cs
+C:\NETCORE\SKShopping\AzureEventGrid\obj\Debug\net5.0\AzureEventGrid.csproj.CoreCompileInputs.cache

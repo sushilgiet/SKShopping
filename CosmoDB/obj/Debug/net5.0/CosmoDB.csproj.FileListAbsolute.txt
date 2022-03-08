@@ -1,0 +1,14 @@
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\CosmoDB.deps.json
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\CosmoDB.dll
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\ref\CosmoDB.dll
+C:\NETCORE\SKShopping\CosmoDB\bin\Debug\net5.0\CosmoDB.pdb
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.csproj.AssemblyReference.cache
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.AssemblyInfoInputs.cache
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.AssemblyInfo.cs
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.csproj.CoreCompileInputs.cache
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.dll
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\ref\CosmoDB.dll
+C:\NETCORE\SKShopping\CosmoDB\obj\Debug\net5.0\CosmoDB.pdb

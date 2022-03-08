@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -8,18 +9,19 @@ using System.Threading.Tasks;
 using WebView.Models;
 namespace WebView.Controllers
 {
-    public class WeatherController : BaseController
+    [Authorize]
+    public class WeatherController : Controller
     {
         // GET: WeatherController
         private APICaller apiCaller;
-        public WeatherController(IConfiguration config) : base(config)
+        public WeatherController(IConfiguration config)
         {
             apiCaller = new APICaller(config);
         }
 
         public ActionResult Index()
         {
-            IEnumerable<WeatherForecast> forecasts = APICaller.GetMany<WeatherForecast>("WeatherForecast");
+            IEnumerable<WeatherForecast> forecasts =APICaller.GetMany<WeatherForecast>("WeatherForecast");
             return View(forecasts);
         }
 
@@ -38,32 +40,49 @@ namespace WebView.Controllers
         // POST: WeatherController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(WeatherForecast forecast)
         {
             try
             {
+              var response=  APICaller.Post<WeatherForecast>("WeatherForecast", forecast);
+                if(response !=null && response.IsSuccessStatusCode)
                 return RedirectToAction(nameof(Index));
+                else
+                    return View(forecast);
             }
-            catch
+            catch(Exception ex)
             {
+                throw ex;
                 return View();
             }
         }
 
         // GET: WeatherController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string id)
         {
-            return View();
+            WeatherForecast forecast = null;
+            IEnumerable<WeatherForecast> forecasts = APICaller.GetMany<WeatherForecast>("WeatherForecast");
+            if (forecasts != null)
+                forecast=forecasts.Where(t => t.id == id).FirstOrDefault();
+            if (forecast != null)
+                return View(forecast);
+            else
+                return View();
+
         }
 
         // POST: WeatherController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, WeatherForecast forecast)// IFormCollection collection)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var response = APICaller.Put<WeatherForecast>("WeatherForecast", forecast);
+                if (response != null && response.IsSuccessStatusCode)
+                    return RedirectToAction(nameof(Index));
+                else
+                    return View(forecast);
             }
             catch
             {

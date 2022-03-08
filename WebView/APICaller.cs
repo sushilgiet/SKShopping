@@ -80,7 +80,7 @@ namespace WebView
 
         }
 
-        public static TResponse Post<TResponse, TRequest>(string url, TRequest content) where TRequest : class
+        public static HttpResponseMessage Post<TRequest>(string url, TRequest content) where TRequest : class
         {
             HttpResponseMessage response = null;
 
@@ -90,26 +90,27 @@ namespace WebView
             {
                 client.Timeout = TimeSpan.FromSeconds(2400);
                 SetToken(client);
-                client.BaseAddress = new Uri("");
+                client.BaseAddress = new Uri(_baseUrl);
 
                 response = client.PostAsJsonAsync<TRequest>(url, content).Result;
 
-                if (response.IsSuccessStatusCode)
-                {
+                return response;
+                //if (response.IsSuccessStatusCode)
+                //{
 
-                    return response.Content.ReadFromJsonAsync<TResponse>().Result;//ReadAsAsync<List<TResponse>>().Result; ;
+                //    return response.Content.ReadFromJsonAsync<TResponse>().Result;//ReadAsAsync<List<TResponse>>().Result; ;
 
-                }
-                else
-                {
-                    //To Enable disable logs 
-                    //if (string.Compare(logEnable, "Yes", true) == 0)
-                    //{
-                    //    var data = response.Content.ReadAsAsync<string>().Result;
-                    //    Utility.LogError(data);
-                    //}
-                    return default(TResponse);
-                }
+                //}
+                //else
+                //{
+                //    //To Enable disable logs 
+                //    //if (string.Compare(logEnable, "Yes", true) == 0)
+                //    //{
+                //    //    var data = response.Content.ReadAsAsync<string>().Result;
+                //    //    Utility.LogError(data);
+                //    //}
+                //    return default(TResponse);
+                //}
 
             }
 
@@ -125,7 +126,7 @@ namespace WebView
             {
                 client.Timeout = TimeSpan.FromSeconds(2400);
                 SetToken(client);
-                client.BaseAddress = new Uri("");
+                client.BaseAddress = new Uri(_baseUrl);
                 
                 response = client.PostAsJsonAsync<TRequest>(url, content).Result;
 
@@ -155,8 +156,42 @@ namespace WebView
 
             //client.DefaultRequestHeaders.Add("APIKey", apiKey);
         }
+        public static HttpResponseMessage Put<TRequest>(string url, TRequest content) where TRequest : class
+        {
+            HttpResponseMessage response = null;
+
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.UseDefaultCredentials = true;
+            using (var client = new HttpClient(handler, true))
+            {
+                client.Timeout = TimeSpan.FromSeconds(2400);
+                SetToken(client);
+                client.BaseAddress = new Uri(_baseUrl);
+
+                response = client.PutAsJsonAsync<TRequest>(url, content).Result;
+                return response;
+                //if (response.IsSuccessStatusCode)
+                //{
+
+                //    return response.Content.ReadFromJsonAsync<TResponse>().Result;//ReadAsAsync<List<TResponse>>().Result; ;
+
+                //}
+                //else
+                //{
+                //    //To Enable disable logs 
+                //    //if (string.Compare(logEnable, "Yes", true) == 0)
+                //    //{
+                //    //    var data = response.Content.ReadAsAsync<string>().Result;
+                //    //    Utility.LogError(data);
+                //    //}
+                //    return default(TResponse);
+                //}
+
+            }
+
+        }
 
     }
 
-   
+
 }
