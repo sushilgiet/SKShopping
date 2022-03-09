@@ -27,6 +27,7 @@ namespace WebView
             services.AddControllersWithViews();
             //Authentication scheme-different authentication methods
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();//o=>o.LoginPath="/account/signin"
+            services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
