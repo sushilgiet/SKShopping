@@ -48,11 +48,11 @@ namespace SkCloudAPIs.Controllers
             _cosmoclient = CosmoDBClient.InitializeCosmosClientInstanceAsync(_db, _container, _endPoint, _accountkey).GetAwaiter().GetResult();
         }
 
-       [HttpGet]
-       public void GetSettings()
-        {
+       //[HttpGet]
+       //public void GetSettings()
+       // {
 
-        }
+       // }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
