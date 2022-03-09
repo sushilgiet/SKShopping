@@ -12,6 +12,7 @@ namespace WebView.Controllers
       public IConfiguration Configuration { get; set; }
       public BaseController(IConfiguration confugration)
       {
+
             Configuration = confugration;
       }
     }
