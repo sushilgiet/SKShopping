@@ -13,5 +13,6 @@ namespace SkCloudAPIs
         public string Summary { get; set; }
 
         public string id { get; set; }
+
     }
 }

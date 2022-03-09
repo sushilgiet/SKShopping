@@ -9,3 +9,4 @@ C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.csproj.CoreCom
 C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.dll
 C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\ref\AzureStorage.dll
 C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.pdb
+C:\NETCORE\SKShopping\BlobOperation\obj\Debug\net5.0\AzureStorage.csproj.AssemblyReference.cache

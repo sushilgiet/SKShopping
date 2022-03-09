@@ -86,4 +86,3 @@ C:\NETCORE\SKShopping\SkCloudAPIs\bin\Debug\net5.0\AzureEventHub.pdb
 C:\NETCORE\SKShopping\SkCloudAPIs\bin\Debug\net5.0\AzureServiceBus.pdb
 C:\NETCORE\SKShopping\SkCloudAPIs\bin\Debug\net5.0\AzureStorage.pdb
 C:\NETCORE\SKShopping\SkCloudAPIs\bin\Debug\net5.0\CosmoDB.pdb
-C:\NETCORE\SKShopping\SkCloudAPIs\obj\Debug\net5.0\SkCloudAPIs.csproj.CopyComplete
