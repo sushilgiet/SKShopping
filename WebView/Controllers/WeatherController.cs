@@ -22,6 +22,7 @@ namespace WebView.Controllers
         public ActionResult Index()
         {
             IEnumerable<WeatherForecast> forecasts =APICaller.GetMany<WeatherForecast>("WeatherForecast");
+        
             return View(forecasts);
         }
 

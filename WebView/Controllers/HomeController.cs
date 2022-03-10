@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -14,14 +15,16 @@ namespace WebView.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IConfiguration Config;
+        public HomeController(ILogger<HomeController> logger, IConfiguration config)
         {
+            Config = config;
             _logger = logger;
         }
         [AllowAnonymous]
         public IActionResult Index()
         {
+            ViewBag.Env = Config.GetValue<string>("env"); 
             return View();
         }
         [Authorize]

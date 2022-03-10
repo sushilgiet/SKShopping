@@ -475,3 +475,4 @@ C:\NETCORE\SKShopping\WebView\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbst
 C:\NETCORE\SKShopping\WebView\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\NETCORE\SKShopping\WebView\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
 C:\NETCORE\SKShopping\WebView\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\NETCORE\SKShopping\WebView\obj\Debug\net5.0\WebView.csproj.AssemblyReference.cache
